@@ -57,7 +57,8 @@ The defaults cover `/Applications` and `/System/Applications` plus their `Utilit
 `/System/Library/CoreServices/Applications`, the cryptex apps under
 `/System/Volumes/Preboot/Cryptexes/App/System/Applications` (this is the only place Safari really
 lives — `/Applications/Safari.app` is a symlink flagged hidden, so `.skipsHiddenFiles` never sees it),
-`~/Applications`, and `/System/Library/CoreServices/Finder.app`.
+`~/Applications`, `/System/Library/CoreServices/Finder.app`, and
+`/Applications/Xcode.app/Contents/Applications`.
 
 Finder ships as an individual bundle scope rather than by adding `/System/Library/CoreServices`, which
 holds ~120 background-agent bundles. There is no reliable way to filter those: `LSUIElement`,

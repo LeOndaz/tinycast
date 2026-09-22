@@ -13,7 +13,8 @@ enum SearchScopes {
         "/System/Volumes/Preboot/Cryptexes/App/System/Applications",
         // The one user-facing app in CoreServices, so the directory itself is no default.
         "/System/Library/CoreServices/Finder.app",
-        "~/Applications"
+        "~/Applications",
+        "/Applications/Xcode.app/Contents/Applications"
     ]
 
     /// Tilde-abbreviated and unslashed, so a settings backup stays portable across machines.
